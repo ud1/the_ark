@@ -1,0 +1,5 @@
+CREATE TABLE USER_PASS (
+   id INTEGER PRIMARY KEY,
+   password TEXT NOT NULL
+);
+

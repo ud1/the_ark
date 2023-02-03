@@ -1,0 +1,27 @@
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: $header-height;
+  background-color: #4879AD;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #fff;
+}
+
+header a:link {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.header-left-block {
+  flex-grow: 1;
+}
+
+.message-search {
+  margin-right: 10px;
+}

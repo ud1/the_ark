@@ -1,0 +1,39 @@
+.winbox {
+  & {
+    background: #618DBD;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .wb-title {
+    color: #eee;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .wb-control {
+    filter: invert(1);
+  }
+}
+
+
+.wb-body {
+  form {
+    height: 100%;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .md-editor {
+    flex-grow: 1;
+  }
+
+  .pure-controls {
+    padding-bottom: 8px;
+  }
+}
+

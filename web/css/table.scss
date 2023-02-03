@@ -1,0 +1,60 @@
+
+.forum-table {
+  border: #c5d5f0 1px solid;
+  width: 100%;
+
+  th {
+    background: #a6bfdc;
+    padding: 3px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 3px;
+  }
+
+  tr:nth-child(odd) td {
+    background: #D5E0E0;
+  }
+
+  tr:nth-child(even) td {
+    background: #CDD5DF;
+  }
+
+  tbody tr {
+    font-size: 14px;
+  }
+}
+
+table {
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
+table {
+  .author {
+    width: 150px;
+  }
+
+  .last-user {
+    width: 150px;
+  }
+
+  .message-count {
+    width: 60px;
+  }
+
+  .last-message-time {
+    width: 150px;
+  }
+}
