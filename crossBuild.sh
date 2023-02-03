@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd web
+npm install
 node createProductionBundle.js
 cd ..
 
